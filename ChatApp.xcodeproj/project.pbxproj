@@ -16,6 +16,7 @@
 		117F09E6297FFD520058EE17 /* ChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F09E5297FFD520058EE17 /* ChatAppTests.swift */; };
 		117F09F0297FFD520058EE17 /* ChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F09EF297FFD520058EE17 /* ChatAppUITests.swift */; };
 		117F09F2297FFD520058EE17 /* ChatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F09F1297FFD520058EE17 /* ChatAppUITestsLaunchTests.swift */; };
+		117F0A0629800BF80058EE17 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F0A0529800BF80058EE17 /* ConversationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		117F09EB297FFD520058EE17 /* ChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		117F09EF297FFD520058EE17 /* ChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITests.swift; sourceTree = "<group>"; };
 		117F09F1297FFD520058EE17 /* ChatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		117F0A0529800BF80058EE17 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,12 @@
 		117F09CD297FFD500058EE17 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				117F0A0429800B080058EE17 /* Utils */,
+				117F0A0329800AA80058EE17 /* Model */,
+				117F0A0229800AA40058EE17 /* View */,
+				117F0A0129800A9B0058EE17 /* ViewModel */,
+				117F0A0029800A9A0058EE17 /* Controller */,
+				117F09FE29800A8C0058EE17 /* Repository */,
 				117F09CE297FFD500058EE17 /* AppDelegate.swift */,
 				117F09D0297FFD500058EE17 /* SceneDelegate.swift */,
 				117F09D2297FFD500058EE17 /* ViewController.swift */,
@@ -125,6 +133,49 @@
 				117F09F1297FFD520058EE17 /* ChatAppUITestsLaunchTests.swift */,
 			);
 			path = ChatAppUITests;
+			sourceTree = "<group>";
+		};
+		117F09FE29800A8C0058EE17 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		117F0A0029800A9A0058EE17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				117F0A0529800BF80058EE17 /* ConversationsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		117F0A0129800A9B0058EE17 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		117F0A0229800AA40058EE17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		117F0A0329800AA80058EE17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		117F0A0429800B080058EE17 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +312,7 @@
 				117F09D3297FFD500058EE17 /* ViewController.swift in Sources */,
 				117F09CF297FFD500058EE17 /* AppDelegate.swift in Sources */,
 				117F09D1297FFD500058EE17 /* SceneDelegate.swift in Sources */,
+				117F0A0629800BF80058EE17 /* ConversationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
